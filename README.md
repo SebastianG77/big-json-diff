@@ -17,7 +17,7 @@ $ npm install -g big-json-diff
 
 When adding the option ```--bigNumberSupport``` or its shortcut ```-b``` while running big-json-diff, it is possible to get proper diffs for JSON files that contain numbers of any size as this module then uses a big number JSON parser internally to build objects of JSON files. 
 
-Just run one of the following commands from console to create a diff for JSON files that contain big numbers. 
+If you installed big-json-diff globally, just run one of the following commands from console to create a diff for JSON files that contain big numbers. 
 
 ```
 $ big-json-diff -b <path-to-old-file> <path-to-new-file>
@@ -27,6 +27,18 @@ or
 
 ```
 $ big-json-diff --bigNumberSupport <path-to-old-file> <path-to-new-file>
+```
+
+Of course, in case you installed big-json-diff locally and would like to execute it via console, navigate to the installation root directory and use one of the following commands for getting diffs that also consider big numbers.
+
+```
+$ node_modules/.bin/big-json-diff -b <path-to-old-file> <path-to-new-file>
+```
+
+or 
+
+```
+$ node_modules/.bin/big-json-diff --bigNumberSupport <path-to-old-file> <path-to-new-file>
 ```
 
 If you need to call the crorresponding function programatically, you first have to ensure all big numbers are already converted to bignumber.js objects. Then simply run the function diffString() and pass the option { bigNumberSupport: true } as displayed in the following example.
