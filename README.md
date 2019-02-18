@@ -3,6 +3,18 @@ big-json-diff
 
 This module is a fork of [json-diff 0.5.3](https://www.npmjs.com/package/json-diff/v/0.5.3). It generally offers all functions of the original module but also extends it by offering an option for bignumber.js support. 
 
+Use the following command to install this module locally:
+
+```
+$ npm install big-json-diff
+```
+
+If you prefer a global installation, you of course can also use this command instead: 
+
+```
+$ npm install -g big-json-diff
+```
+
 When adding the option ```--bigNumberSupport``` or its shortcut ```-b``` while running big-json-diff, it is possible to get proper diffs for JSON files that contain numbers of any size as this module then uses a big number JSON parser internally to build objects of JSON files. 
 
 Just run one of the following commands from console to create a diff for JSON files that contain big numbers. 
