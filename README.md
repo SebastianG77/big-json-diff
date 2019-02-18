@@ -67,7 +67,7 @@ const oldBigNumber = BigNumber('3e+5000')
 
 const newBigNumber = BigNumber('12345678901234567890')
 
-console.log(bigJsonDiff.diffString(oldBigNumber, newBigNumber, { bigNumberSupport: true })) 
+console.log(bigJsonDiff.diff(oldBigNumber, newBigNumber, { bigNumberSupport: true })) 
 // { __old: BigNumber { s: 1, e: 5000, c: [ 300 ] },
 //  __new: BigNumber { s: 1, e: 19, c: [ 123456, 78901234567890 ] } }
 ```
