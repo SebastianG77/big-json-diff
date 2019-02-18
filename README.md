@@ -8,13 +8,13 @@ When adding the option ```--bigNumberSupport``` or its shortcut ```-b``` while r
 Just run one of the following commands from console to create a diff for JSON files that contain big numbers. 
 
 ```
-$ npm install big-json-diff -b <path-to-old-file> <path-to-new-file>
+$ big-json-diff -b <path-to-old-file> <path-to-new-file>
 ```
 
 or 
 
 ```
-$ npm install big-json-diff --bigNumberSupport <path-to-old-file> <path-to-new-file>
+$ big-json-diff --bigNumberSupport <path-to-old-file> <path-to-new-file>
 ```
 
 If you need to call the crorresponding function programatically, you first have to ensure all big numbers are already converted to bignumber.js objects. Then simply run the function diffString() and pass the option { bigNumberSupport: true } as displayed in the following example.
