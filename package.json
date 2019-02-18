@@ -1,14 +1,11 @@
 {
-  "author": "Andrey Tarantsov <andreyvit@me.com>",
-  "contributors": [
-    "Gavriel Fleischer <flocsy@gmail.com>"
-  ],
-  "name": "json-diff",
-  "description": "JSON diff",
-  "version": "0.5.3",
-  "homepage": "https://github.com/andreyvit/json-diff",
+  "name": "big-json-diff",
+  "description": "JSON diff with support for big numbers",
+  "version": "0.6.0",
+  "license": "MIT",
+  "homepage": "https://github.com/SebastianG77/big-json-diff",
   "repository": {
-    "url": "git@github.com:andreyvit/json-diff.git"
+    "url": "git@github.com:SebastianG77/big-json-diff.git"
   },
   "main": "lib/index.js",
   "bin": "bin/json-diff.js",
