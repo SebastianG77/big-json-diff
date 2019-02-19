@@ -90,7 +90,7 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-"true-json-bigint@^0.4.4":
+"true-json-bigint@~0.4.4":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/true-json-bigint/-/true-json-bigint-0.4.4.tgz#82a2a04a959958ae0eeb819e62481db4717bdf60"
   integrity sha512-RE5QJtnrn50WicRYER45GNfnd/CTULiaW3EdtalvAFuMqt/e7XB5mZArEvBRItr8+/KxCpYMMDwcuGoXId/4KA==
