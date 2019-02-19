@@ -14,6 +14,17 @@
     "test": "mocha test/*.coffee",
     "cov": "rm -rf lib-cov; jscoverage lib lib-cov; env JSLIB=lib-cov mocha -R dot && env JSLIB=lib-cov mocha -R html-cov >coverage.html; open coverage.html"
   },
+  "keywords": [
+    "big",
+    "bigint",
+    "bignumber",
+    "bignumber.js",
+    "diff",
+    "number",
+    "json",
+    "JSON",
+    "true-json-bigint"
+  ],
   "dependencies": {
     "cli-color": "~0.1.6",
     "difflib": "~0.2.1",
