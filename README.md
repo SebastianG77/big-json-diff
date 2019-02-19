@@ -52,8 +52,9 @@ const oldBigNumber = BigNumber('3e+5000')
 
 const newBigNumber = BigNumber('12345678901234567890')
 
-console.log(bigJsonDiff.diffString(oldBigNumber, newBigNumber, { bigNumberSupport: true })) // -3e+5000
-                                                                                          // +12345678901234567890
+console.log(bigJsonDiff.diffString(oldBigNumber, newBigNumber, { bigNumberSupport: true })) 
+// -3e+5000
+// +12345678901234567890
 ```
 
 **Note:** Since this module internally works with [bignumber.js](https://www.npmjs.com/package/bignumber.js) objects, it cannot be guaranteed for big numbers that they will be represented in the same way as transferred to big-json-diff. This means, big-json-diff can represent numbers written in scientific notation as decimal numbers and vice versa. However, the representation does not have any effect on the actual meaning of the result, such that big-json-diff should always be able to return all diffs.
