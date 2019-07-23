@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "coffee-script": "^1.12.7",
-    "mocha": "~1.7.0"
+    "mocha": "~6.2.0"
   },
   "optionalDependencies": {},
   "engines": {
