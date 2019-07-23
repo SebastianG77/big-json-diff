@@ -26,10 +26,10 @@
     "true-json-bigint"
   ],
   "dependencies": {
-    "cli-color": "~0.1.6",
-    "difflib": "~0.2.1",
-    "dreamopt": "~0.6.0",
-    "true-json-bigint": "~0.4.4"
+    "cli-color": "~1.4.0",
+    "difflib": "~0.2.4",
+    "dreamopt": "~0.8.0",
+    "true-json-bigint": "~0.4.5"
   },
   "devDependencies": {
     "coffee-script": "^1.12.7",
