@@ -26,14 +26,14 @@
     "true-json-bigint"
   ],
   "dependencies": {
-    "cli-color": "~1.4.0",
+    "cli-color": "~2.0.0",
     "difflib": "~0.2.4",
-    "dreamopt": "~0.7.0",
-    "true-json-bigint": "~0.4.5"
+    "dreamopt": "~0.8.0",
+    "true-json-bigint": "~0.4.7"
   },
   "devDependencies": {
     "coffee-script": "^1.12.7",
-    "mocha": "~6.2.0"
+    "mocha": "~7.1.1"
   },
   "optionalDependencies": {},
   "engines": {
