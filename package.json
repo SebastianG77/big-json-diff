@@ -28,7 +28,7 @@
   "dependencies": {
     "cli-color": "~2.0.0",
     "difflib": "~0.2.4",
-    "dreamopt": "~0.8.0",
+    "dreamopt": "~0.7.0",
     "true-json-bigint": "~0.4.8"
   },
   "devDependencies": {

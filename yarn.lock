@@ -200,10 +200,10 @@ difflib@~0.2.4:
   dependencies:
     heap ">= 0.2.0"
 
-dreamopt@~0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/dreamopt/-/dreamopt-0.8.0.tgz#5bcc80be7097e45fc489c342405ab68140a8c1d9"
-  integrity sha1-W8yAvnCX5F/EicNCQFq2gUCowdk=
+dreamopt@~0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/dreamopt/-/dreamopt-0.7.0.tgz#8248a73aab8a1d4190bb9e216615b31d7ce031f7"
+  integrity sha1-gkinOquKHUGQu54hZhWzHXzgMfc=
   dependencies:
     wordwrap ">=0.0.2"
 
