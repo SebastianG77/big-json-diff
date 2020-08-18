@@ -11,7 +11,7 @@
   "bin": "bin/json-diff.js",
   "scripts": {
     "prepare": "coffee -c lib",
-    "test": "mocha test/*.coffee",
+    "test": "mocha --config=test/.mocharc.json test/*.coffee",
     "cov": "rm -rf lib-cov; jscoverage lib lib-cov; env JSLIB=lib-cov mocha -R dot && env JSLIB=lib-cov mocha -R html-cov >coverage.html; open coverage.html"
   },
   "keywords": [
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "coffee-script": "^1.12.7",
-    "mocha": "~7.1.1"
+    "mocha": "~8.1.1"
   },
   "optionalDependencies": {},
   "engines": {
