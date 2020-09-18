@@ -1,6 +1,6 @@
 big-json-diff
 ===========
-[![Build Status](https://travis-ci.org/SebastianG77/big-json-diff.svg?branch=master)](https://travis-ci.org/SebastianG77/big-json-diff)
+[![Build Status](https://travis-ci.com/SebastianG77/big-json-diff.svg?branch=master)](https://travis-ci.com/SebastianG77/big-json-diff)
 
 This module is a fork of [json-diff 0.5.3](https://www.npmjs.com/package/json-diff/v/0.5.3). It generally offers all functions of the original module but also extends it by offering an option for big number support. 
 
