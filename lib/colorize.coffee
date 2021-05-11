@@ -53,7 +53,7 @@ subcolorizeToCallback = (key, diff, output, color, indent, options) ->
       output color, "#{indent}]"
 
     else
-      if diff == 0 or diff
+      if diff == 0 or diff == null or diff == false or diff
         stringifiedJSON = if options.bigNumberSupport then JSONbig.stringify(diff, null, 2) else JSON.stringify(diff, null, 2)
         output(color, indent + prefix + stringifiedJSON)
 
